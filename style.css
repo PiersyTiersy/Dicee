@@ -1,0 +1,62 @@
+html {
+    text-align: center;
+    background-color: rgb(56, 55, 55);
+    color: rgb(33, 221, 196);
+    font-size: 2rem;
+    font-family: "Briem Hand", cursive;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.mid {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.players { 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40%;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+.dicee {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30%;
+}
+
+footer {
+    color: rgb(127, 180, 164);
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 47vh;
+}
+
+@media (max-width: 696px) {    
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 356px) {    
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}
